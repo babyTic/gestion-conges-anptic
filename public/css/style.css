@@ -1,0 +1,29 @@
+/* public/css/style.css */
+:root {
+    --primary: #2a2d78;
+    --secondary: #656ed3;
+    --accent: #44aae0;
+    --text: #000000;
+    --background: #ebefff;
+    --white: #ffffff;
+    --input-border: #656ed3;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--background);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styles de base communs à toutes les pages */

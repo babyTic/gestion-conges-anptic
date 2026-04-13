@@ -1,0 +1,108 @@
+/* ==========================
+   MOT DE PASSE OUBLIE (popup)
+========================== */
+.popup-recup-mdp {
+  background: #ebefff;
+  min-height: 125vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle-6 {
+  background: #2a2d78;
+  border-radius: 105px;
+  width: 600px; height: 350px;
+  position: absolute;
+  left: -100px; bottom: -100px;
+  transform: rotate(-100deg);
+}
+
+.rectangle-7 {
+  background: rgba(68, 170, 224, 0.93);
+  border-radius: 105px;
+  width: 600px; height: 350px;
+  position: absolute;
+  right: -200px; bottom: -150px;
+  transform: rotate(-90deg);
+}
+
+.rectangle-2623 {
+  background: #fff;
+  border-radius: 20px;
+  width: 500px; max-width: 100%;
+  padding: 40px 20px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+  z-index: 5;
+}
+
+.rectangle-2 {
+  width: 100%;
+  padding: 12px;
+  border-radius: 50px;
+  border: 1px solid #656ed3;
+  margin-bottom: 20px;
+}
+
+.rectangle-4 {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  border-radius: 50px;
+  background: #2a2d78;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.rectangle-4:hover { background: #1e215a; }
+
+.retour-la-page-de-connexion {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #2a2d78;
+  text-decoration: none;
+}
+.retour-la-page-de-connexion:hover { text-decoration: underline; }
+
+/* ==========================
+   PAGE RESET
+========================== */
+.page-de-recuperation-mot-de-passe {
+  background: #ebefff;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-on-a-path {
+  background: #fff;
+  border-radius: 20px;
+  width: 700px; max-width: 95%;
+  padding: 40px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.2);
+  z-index: 5;
+}
+
+.rectangle-10, .rectangle-4 {
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  background: #2a2d78;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+}
+.rectangle-10:hover, .rectangle-4:hover { background: #1e215a; }
+
+.annuler { margin-right: 20px; }
