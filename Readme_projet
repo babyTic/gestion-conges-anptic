@@ -48,6 +48,9 @@ Digitaliser et automatiser la gestion des congés afin de :
 ✔ Analyse des besoins métier  
 
 ---
+## 📸 Aperçu de l'application
+
+---
 
 ## 🏗️ Installation
 
@@ -67,12 +70,14 @@ npm run dev
 Authentification utilisateur
 Middleware Laravel
 Gestion des accès par rôle
+
 📈 Améliorations possibles
 Notifications email
 Dashboard avec statistiques
 Export PDF
 API REST
 Version mobile
+
 👨‍💻 Auteur
 
 Dakoure Cédric
