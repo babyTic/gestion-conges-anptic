@@ -1,140 +1,79 @@
-📋 Système de Gestion des Congés
+# 📋 Application de Gestion des Congés
 
- 📖 Description du projet
+## 🚀 Aperçu
 
-Ce projet est une application web permettant de digitaliser la gestion des congés au sein d’une organisation.  
-Elle permet aux employés de soumettre leurs demandes de congé en ligne, tandis que les responsables hiérarchiques et le service des ressources humaines peuvent examiner, valider ou refuser ces demandes via une interface centralisée.
+Application web complète développée avec Laravel permettant de gérer les demandes de congés en entreprise (soumission, validation, suivi).
 
-L’objectif est de simplifier le processus administratif, améliorer la traçabilité des demandes et réduire les erreurs liées au traitement manuel.
-
-Ce projet a été réalisé dans le cadre d’un stage académique à l’ANPTIC.
+👉 Projet réalisé en conditions réelles lors d’un stage à l’ANPTIC.
 
 ---
 
-🎯 Objectifs du projet
+## 🎯 Objectif
 
-- Informatiser la gestion des congés
-- Automatiser les processus de validation
-- Centraliser les demandes de congé
-- Améliorer la visibilité des absences grâce à un calendrier
-- Réduire la charge administrative du service RH
+Digitaliser et automatiser la gestion des congés afin de :
+- Réduire les tâches administratives
+- Améliorer la traçabilité des demandes
+- Centraliser les informations
 
+---
 
+## 🛠️ Stack technique
 
- ⚙️ Technologies utilisées
-
-Le projet repose sur les technologies suivantes :
-
-- **Backend :** PHP
-- **Framework :** Laravel
+- **Backend :** PHP (Laravel)
+- **Frontend :** HTML, CSS, Bootstrap, JavaScript
 - **Base de données :** MySQL
-- **Frontend :**
-  - HTML
-  - CSS
-  - Bootstrap
-  - JavaScript
-- **Bibliothèque calendrier :** FullCalendar
-- **Gestion de version :** Git
+- **Librairie :** FullCalendar
+- **Versioning :** Git / GitHub
 
 ---
 
-## 🧩 Fonctionnalités principales
+## ✨ Fonctionnalités principales
 
-- Authentification des utilisateurs
-- Gestion des rôles (Administrateur, RH, Responsable, Employé)
-- Soumission de demandes de congé
-- Validation ou refus des demandes
-- Consultation du calendrier des congés
-- Gestion des utilisateurs
-- Tableau de bord administratif
-- Historique des demandes
+- Authentification sécurisée
+- Gestion des rôles (Admin, RH, Responsable, Employé)
+- Création et suivi des demandes de congé
+- Validation / refus des demandes
+- Tableau de bord administrateur
+- Affichage des congés via calendrier interactif
 
 ---
 
-## 🏗️ Architecture du projet
+## 🧠 Compétences démontrées
 
-L’application suit l’architecture **MVC (Model - View - Controller)** proposée par le framework Laravel.
-
-- **Model :** gestion des données et interactions avec la base de données
-- **View :** interface utilisateur
-- **Controller :** logique métier et gestion des requêtes
+✔ Développement backend avec Laravel  
+✔ Conception de base de données (MySQL)  
+✔ Architecture MVC  
+✔ Gestion des rôles et permissions  
+✔ Développement d’interface utilisateur  
+✔ Analyse des besoins métier  
 
 ---
 
-## 🚀 Installation du projet
-
-### 1️⃣ Cloner le dépôt
+## 🏗️ Installation
 
 ```bash
 git clone https://github.com/babyTic/gestion-conges-anptic.git
-2️⃣ Accéder au dossier du projet
 cd gestion-conges-anptic
-3️⃣ Installer les dépendances
 composer install
-4️⃣ Configurer le fichier d'environnement
-
-Copier le fichier .env.example :
-
 cp .env.example .env
-
-Configurer ensuite les informations de connexion à la base de données dans le fichier .env.
-
-Exemple :
-
-DB_DATABASE=gestion_conges
-DB_USERNAME=root
-DB_PASSWORD=
-
-5️⃣ Générer la clé de l'application
 php artisan key:generate
-6️⃣ Exécuter les migrations
 php artisan migrate
-7️⃣ Lancer le serveur de développement
 php artisan serve
+npm run dev 
 
-L'application sera accessible à l'adresse :
+👉 Accès : http://127.0.0.1:8000
 
-http://127.0.0.1:8000
-👤 Utilisateurs du système
-
-Le système comporte plusieurs types d’utilisateurs :
-
-Administrateur : gestion complète du système
-Responsable : validation des demandes des employés
-RH : supervision et gestion globale des congés
-Employé : soumission des demandes de congé
-📅 Gestion des congés
-
-Le système permet :
-
-la création d’une demande de congé
-la validation par le responsable ou le service RH
-l’affichage des congés dans un calendrier
-le suivi de l’état des demandes
 🔐 Sécurité
-
-Le système intègre :
-
-authentification des utilisateurs
-gestion des rôles et permissions
-protection des routes via middleware Laravel
-📈 Perspectives d’amélioration
-
-Plusieurs améliorations peuvent être envisagées :
-
-notifications par email
-tableau de bord statistique
-export PDF des décisions de congé
-application mobile
-intégration avec les systèmes RH existants
+Authentification utilisateur
+Middleware Laravel
+Gestion des accès par rôle
+📈 Améliorations possibles
+Notifications email
+Dashboard avec statistiques
+Export PDF
+API REST
+Version mobile
 👨‍💻 Auteur
 
-DAKOURE Kiswendsida Cédric M. Armand
-
-Étudiant en informatique spécialisé en développement d’applications web.
-
-Projet réalisé dans le cadre d’un stage académique à l’ANPTIC (Agence Nationale de Promotion des Technologies de l’Information et de la Communication).
-
-📄 Licence
-
-Ce projet est un projet académique réalisé à des fins pédagogiques.
+Dakoure Cédric
+Développeur Web Junior (PHP / Laravel)
